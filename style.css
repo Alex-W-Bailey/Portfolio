@@ -1,11 +1,21 @@
 body { 
-    font-family: 'Overpass', sans-serif; 
+    font-family: 'Fredoka One', cursive;
     letter-spacing: 0px; 
     font-size: 17px; 
     color: #8d8f90; 
     font-weight: 400; 
     line-height: 32px; 
     background-color: #edefef; 
+}
+
+.page-caption{
+    margin: auto;
+    text-align: center; 
+}
+
+#profile_pic{
+    height: 250px;
+    width: 250px;
 }
 
 h1, h2 { 
@@ -22,7 +32,7 @@ h1 {
 }
 
 h2 { 
-    font-size: 28px; 
+    font-size: 40px; 
     line-height: 38px; }
 
 h6 { 
@@ -55,19 +65,20 @@ a:focus, a:hover {
     background: url(https://wallpapertag.com/wallpaper/full/6/1/6/483157-black-and-white-city-wallpaper-2560x1600-for-ipad.jpg)no-repeat; 
     position: relative;
     background-size: cover; 
+    height: 600px;
 }
 
 .page-caption { 
     padding-top: 170px; 
-    padding-bottom: 174px; 
+    padding-bottom: 174px;
 }
 
 .page-title { 
     font-size: 46px; 
     margin: auto;
     line-height: 1; 
-    color:	#1E90FF; 
-    background-color: white;
+    color:	white; 
+    background-color: black;
     width: 250px;
     padding: 20px 0px;
     font-weight: 600;
