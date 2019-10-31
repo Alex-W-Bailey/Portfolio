@@ -8,6 +8,10 @@
     <title>Portfolio</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/51f69d4274.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -20,6 +24,12 @@
                     <div class="page-caption mx-a">
                         <img src="Profile_Pic.jpg" id="profile_pic" class="mx-auto d-block">
                         <h1 class="page-title">Alex Bailey</h1>
+                        <div class="text-center">
+                            <span class="all-media-icons text-center">
+                                <a href="#" data-toggle="tooltip" data-placement="left" title="Hooray!"><i class="fab fa-github media-icon mr-3 mt-3"></i></a>
+                                <i class="fab fa-linkedin media-icon"></i></i>
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -33,8 +43,9 @@
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <!-- section-title -->
-                        <div class="section-title mb-0">
+                        <div class="section-title mb-0 text-center">
                             <h2>Projects</h2>
+                            <hr>
                         </div>
                         <!-- /.section-title -->
                     </div>
@@ -43,5 +54,16 @@
         </div>
     </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+
+<script>
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+
 </html>

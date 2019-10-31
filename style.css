@@ -8,14 +8,20 @@ body {
     background-color: #edefef; 
 }
 
-.page-caption{
-    margin: auto;
-    text-align: center; 
-}
-
 #profile_pic{
     height: 250px;
     width: 250px;
+    border: 2px solid white;
+    border-bottom: none;
+}
+
+.all-media-icons{
+    padding-bottom: 100px;
+}
+
+.media-icon{
+    font-size: 40px;
+    color: white; 
 }
 
 h1, h2 { 
@@ -44,10 +50,6 @@ p {
     line-height: 1.7; 
 }
 
-/* p:last-child { 
-    margin: 0px; 
-} */
-
 a { 
     text-decoration: none; 
     color: #8d8f90; 
@@ -69,8 +71,10 @@ a:focus, a:hover {
 }
 
 .page-caption { 
-    padding-top: 170px; 
+    padding-top: 130px; 
     padding-bottom: 174px;
+    margin: auto;
+    text-align: center; 
 }
 
 .page-title { 
@@ -79,6 +83,8 @@ a:focus, a:hover {
     line-height: 1; 
     color:	white; 
     background-color: black;
+    border: 2px solid white;
+    border-top: none;
     width: 250px;
     padding: 20px 0px;
     font-weight: 600;
