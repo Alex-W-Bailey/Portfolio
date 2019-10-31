@@ -24,15 +24,15 @@
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="page-caption mx-a">
-                        <img src="Profile_Pic.jpg" id="profile_pic" class="mx-auto d-block">
+                        <img src="./images/Profile_Pic.jpg" id="profile_pic" class="mx-auto d-block">
                         <h1 class="page-title">Alex Bailey</h1>
                         <div class="text-center">
                             <span class="all-media-icons text-center">
-                                <a href="#" data-toggle="tooltip" data-placement="left" title="Github"><i
+                                <a id="profile_github" data-toggle="tooltip" data-placement="left" title="Github"><i
                                         class="fab fa-github media-icon mr-3 mt-3"></i></a>
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="LinkedIn"><i
+                                <a id="profile_linkedin" data-toggle="tooltip" data-placement="bottom" title="LinkedIn"><i
                                         class="fab fa-linkedin media-icon mr-3"></i></a>
-                                <a href="#" data-toggle="tooltip" data-placement="right" title="Resume"><i
+                                <a id="profile_resume" data-toggle="tooltip" data-placement="right" title="Resume"><i
                                         class="far fa-file-alt media-icon"></i></a>
                             </span>
                         </div>
@@ -66,44 +66,50 @@
                                 <div class="carousel-inner" role="listbox">
                                     <div class="carousel-item active">
                                         <div class="view">
-                                            <img class="d-block w-100"
-                                                src="NSearch_Long.jpg"
-                                                alt="First slide">
+                                            <img class="d-block w-100" src="./images/NSearch_Long.jpg" alt="First slide">
                                             <div class="mask rgba-black-light"></div>
                                         </div>
                                         <div class="carousel-caption">
                                             <!-- <h3 class="h3-responsive">Light mask</h3> -->
-                                            <h3><a href="#" data-toggle="tooltip" data-placement="top" title="Github Repo"><i
-                                                class="fab fa-github project-info-icon mr-3 mt-3"></i></a>
-                                                <a href="#" data-toggle="tooltip" data-placement="top" title="View Project"><i 
-                                                class="fas fa-desktop project-info-icon "></i></a>
+                                            <h3><a id="nsearch_github" data-toggle="tooltip" data-placement="top"
+                                                    title="Github Repo"><i
+                                                        class="fab fa-github project-info-icon mr-3 mt-3"></i></a>
+                                                <a id="nsearch_project" data-toggle="tooltip" data-placement="top"
+                                                    title="View Project"><i
+                                                        class="fas fa-desktop project-info-icon "></i></a>
                                             </h3>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <!--Mask color-->
                                         <div class="view">
-                                            <img class="d-block w-100"
-                                                src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
-                                                alt="Second slide">
-                                            <div class="mask rgba-black-strong"></div>
+                                            <img class="d-block w-100" src="./images/MultiplayerRPS.jpg" alt="Second slide">
+                                            <div class="mask rgba-black-light"></div>
                                         </div>
                                         <div class="carousel-caption">
-                                            <h3 class="h3-responsive">Strong mask</h3>
-                                            <p>Secondary text</p>
+                                            <!-- <h3 class="h3-responsive">Light mask</h3> -->
+                                            <h3><a id="rps_github" data-toggle="tooltip" data-placement="top"
+                                                    title="Github Repo"><i
+                                                        class="fab fa-github project-info-icon mr-3 mt-3"></i></a>
+                                                <a id="rps_project" data-toggle="tooltip" data-placement="top"
+                                                    title="View Project"><i
+                                                        class="fas fa-desktop project-info-icon "></i></a>
+                                            </h3>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <!--Mask color-->
                                         <div class="view">
-                                            <img class="d-block w-100"
-                                                src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
-                                                alt="Third slide">
-                                            <div class="mask rgba-black-slight"></div>
+                                            <img class="d-block w-100" src="./images/GuessTheWord.jpg" alt="Third slide">
+                                            <div class="mask rgba-black-light"></div>
                                         </div>
                                         <div class="carousel-caption">
-                                            <h3 class="h3-responsive">Slight mask</h3>
-                                            <p>Third text</p>
+                                            <!-- <h3 class="h3-responsive">Light mask</h3> -->
+                                            <h3><a id="wordguess_github" data-toggle="tooltip" data-placement="top"
+                                                    title="Github Repo"><i
+                                                        class="fab fa-github project-info-icon mr-3 mt-3"></i></a>
+                                                <a id="wordguess_project" data-toggle="tooltip" data-placement="top"
+                                                    title="View Project"><i
+                                                        class="fas fa-desktop project-info-icon "></i></a>
+                                            </h3>
                                         </div>
                                     </div>
                                 </div>
@@ -140,12 +146,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-</body>
 
-<script>
-    $(document).ready(function () {
-        $('[data-toggle="tooltip"]').tooltip();
-    });
-</script>
+        <script src="portfolio.js"></script>
+</body>
 
 </html>
