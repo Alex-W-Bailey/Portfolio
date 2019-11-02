@@ -112,3 +112,7 @@ a:focus, a:hover {
 .section-title { 
     margin-bottom: 60px; 
 }
+
+#project-carousel{
+    height: 40%;
+}
