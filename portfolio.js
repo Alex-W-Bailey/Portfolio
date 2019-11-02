@@ -26,7 +26,7 @@ $("#nsearch_project").on("click", function(){
 $("#rps_github").on("click", function(){
     window.open("https://github.com/xKingAlex/RPS-Multiplayer");
 })
-$("#rps_projects").on("click", function(){
+$("#rps_project").on("click", function(){
     window.open("https://xkingalex.github.io/RPS-Multiplayer/");
 })
 
