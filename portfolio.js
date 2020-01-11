@@ -14,6 +14,14 @@ $("#profile_resume").on("click", function(){
 })
 
 
+//Schedulez
+$("#schedez_github").on("click", function(){
+    window.open("https://github.com/xKingAlex/Schedulez");
+})
+$("#schedez_project").on("click", function(){
+    window.open("http://scheduleez.herokuapp.com/");
+})
+
 //Nsearch
 $("#nsearch_github").on("click", function(){
     window.open("https://github.com/xKingAlex/NSearch");
