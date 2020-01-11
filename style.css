@@ -113,6 +113,15 @@ a:focus, a:hover {
     margin-bottom: 60px; 
 }
 
-#project-carousel{
-    height: 40%;
+.role-img {
+    height: 250px;
+    width: 100%;
+}
+
+#main-content{
+    height: auto;
+}
+
+.project-icons-div{
+    padding-top: 300px;
 }
