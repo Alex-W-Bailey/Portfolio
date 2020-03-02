@@ -32,16 +32,8 @@ $("#nsearch_project").on("click", function(){
 
 //RPS
 $("#rps_github").on("click", function(){
-    window.open("https://github.com/xKingAlex/RPS-Multiplayer");
+    window.open("https://github.com/xKingAlex/Allocat");
 })
 $("#rps_project").on("click", function(){
-    window.open("https://xkingalex.github.io/RPS-Multiplayer/");
-})
-
-//Word Guess
-$("#wordguess_github").on("click", function(){
-    window.open("https://github.com/xKingAlex/Word-Guess-Game");
-})
-$("#wordguess_project").on("click", function(){
-    window.open("https://xkingalex.github.io/Word-Guess-Game/");
+    window.open("https://allocat.herokuapp.com/");
 })
