@@ -10,7 +10,7 @@ $("#profile_linkedin").on("click", function(){
     window.open("https://www.linkedin.com/in/alex-bailey-19280718a/");
 })
 $("#profile_resume").on("click", function(){
-    window.open("https://docs.google.com/document/d/1VEw1mHKJst-J4DFjG7_l4SM-sgEAozeImoHN1AhP4TU/edit?usp=sharing");
+    window.open("https://docs.google.com/document/d/1KzQwaYdD7HtloREO0K09QqX-bMcyPIRPflbgtNmXIpE/edit?usp=sharing");
 })
 
 
