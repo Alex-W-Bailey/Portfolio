@@ -125,3 +125,11 @@ a:focus, a:hover {
 .project-icons-div{
     padding-top: 300px;
 }
+
+.back-btn {
+    font-size: 40px; 
+}
+
+.back-btn:hover {
+    color: #25292a; 
+}

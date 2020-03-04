@@ -21,6 +21,9 @@ $("#schedez_github").on("click", function(){
 $("#schedez_project").on("click", function(){
     window.open("http://scheduleez.herokuapp.com/");
 })
+$("#schedez_projectInfo").on("click", function(){
+    window.location = "https://xkingalex.github.io/Portfolio/project2.html"
+})
 
 //Nsearch
 $("#nsearch_github").on("click", function(){
@@ -29,6 +32,9 @@ $("#nsearch_github").on("click", function(){
 $("#nsearch_project").on("click", function(){
     window.open("https://xkingalex.github.io/NSearch/");
 })
+$("#nsearch_projectInfo").on("click", function(){
+    window.location = "https://xkingalex.github.io/Portfolio/project1.html"
+})
 
 //RPS
 $("#rps_github").on("click", function(){
@@ -36,4 +42,11 @@ $("#rps_github").on("click", function(){
 })
 $("#rps_project").on("click", function(){
     window.open("https://allocat.herokuapp.com/");
+})
+$("#rps_projectInfo").on("click", function(){
+    window.location = "https://xkingalex.github.io/Portfolio/project3.html"
+})
+
+$("#back-btn").on("click", function(){
+    window.location = "https://xkingalex.github.io/Portfolio/index.html"
 })
