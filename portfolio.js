@@ -22,7 +22,7 @@ $("#schedez_project").on("click", function(){
     window.open("http://scheduleez.herokuapp.com/");
 })
 $("#schedez_projectInfo").on("click", function(){
-    window.location = "https://xkingalex.github.io/Portfolio/project2.html"
+    window.location = "file:///C:/Users/Alexj/Documents/Code/Portfolio/project2.html"
 })
 
 //Nsearch
@@ -33,7 +33,7 @@ $("#nsearch_project").on("click", function(){
     window.open("https://xkingalex.github.io/NSearch/");
 })
 $("#nsearch_projectInfo").on("click", function(){
-    window.location = "https://xkingalex.github.io/Portfolio/project1.html"
+    window.open("https://xkingalex.github.io/Portfolio/project1.html");
 })
 
 //RPS
